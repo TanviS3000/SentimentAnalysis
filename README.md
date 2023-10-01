@@ -1,7 +1,7 @@
 # SentimentAnalysis
 
 ## Introduction:
-The Social Media Analytics Tool is a user-friendly GUI application designed to perform sentiment analysis on social media posts using the `TextBlob` library. Users can upload a CSV file containing social media captions, and the tool will classify them as Positive, Negative, or Neutral based on sentiment scores.
+The Sentiment Analysis Tool is a user-friendly GUI application designed to perform sentiment analysis on social media posts using the `TextBlob` library. Users can upload a CSV file containing social media captions, and the tool will classify them as Positive, Negative, or Neutral based on sentiment scores.
 
 ## Features:
 1. **Easy Upload**: A button to browse and upload a CSV file.
@@ -55,4 +55,4 @@ The tool incorporates robust error handling:
 - The tool ensures valid sentiment scores are calculated for each caption.
 
 ## Conclusion:
-The Social Media Analytics Tool provides a seamless way to perform sentiment analysis on social media posts. With an intuitive GUI, it offers valuable insights into the mood and sentiment of social media content, which can be pivotal for marketers, researchers, and social media enthusiasts.
+The Sentiment Analysis Tool provides a seamless way to perform sentiment analysis on social media posts. With an intuitive GUI, it offers valuable insights into the mood and sentiment of social media content, which can be pivotal for marketers, researchers, and social media enthusiasts.
