@@ -1,12 +1,11 @@
 # SentimentAnalysis
 
 ## Introduction:
-The Sentiment Analysis Tool is a user-friendly GUI application designed to perform sentiment analysis on social media posts using the `TextBlob` library. Users can upload a CSV file containing social media captions, and the tool will classify them as Positive, Negative, or Neutral based on sentiment scores.
+The Sentiment Analysis Tool is designed to perform sentiment analysis on social media posts. Users can upload a CSV file containing social media captions, and the tool will classify them as Positive, Negative, or Neutral based on sentiment scores.
 
 ## Features:
-1. **Easy Upload**: A button to browse and upload a CSV file.
-2. **Sentiment Analysis**: Analyzes the sentiment of each caption in the CSV and classifies it as Positive, Negative, or Neutral.
-3. **Results Display**: Shows the number of captions under each sentiment category in the output box.
+1. **Sentiment Analysis**: Analyzes the sentiment of each caption in the CSV and classifies it as Positive, Negative, or Neutral.
+2. **Results Display**: Shows the number of captions under each sentiment category in the output box.
 
 ## Prerequisites:
 
@@ -38,21 +37,5 @@ pip install pandas textblob
 python sentimentAnalysis.py
 ```
 
-## Usage:
-1. **Upload CSV**:
-    - Click on the "Upload CSV" button.
-    - Select your CSV file which should contain at least two columns: 'username' and 'caption'.
-    - The application will then display the sentiment counts in the result box.
-
-2. **Expected CSV Format**:
-    - Your CSV file should contain at least two columns with the exact names 'username' and 'caption'. 
-    - The 'username' column will contain the usernames of the social media accounts.
-    - The 'caption' column should contain the captions or posts for sentiment analysis.
-
-## Error Handling:
-The tool incorporates robust error handling:
-- If the CSV file can't be read or if it doesn't contain the required columns, an error message will be displayed in the result box.
-- The tool ensures valid sentiment scores are calculated for each caption.
-
 ## Conclusion:
-The Sentiment Analysis Tool provides a seamless way to perform sentiment analysis on social media posts. With an intuitive GUI, it offers valuable insights into the mood and sentiment of social media content, which can be pivotal for marketers, researchers, and social media enthusiasts.
+The Sentiment Analysis Tool provides a seamless way to perform sentiment analysis on social media posts. 
